@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    body {
+        background-image: url("backgorund.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    img{
+    height:300px;
+    width:450px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.card{
+    height: 300px;
+    width: 350px;
+    margin:50px;
+    box-shadow: 5px 5px 20px white;
+    overflow: hidden;
+    border-radius: 25px;
+    transition: 1s;
+}
+.intro{
+    height: 70px;
+    width: 300px;
+    position: absolute;
+    bottom: 360px;
+    box-sizing: border-box;
+    color: rgb(15, 14, 14);
+    border-radius: 25px;
+    transition: 1s;
+    transition: 0.5s;
+}
+h1{
+    margin: 10px;
+    font-size: 5px;
+}
+p{
+    visibility: hidden;
+}
+.but{
+    visibility: hidden;
+}
+.card:hover{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+.card:hover .intro{
+    height: 170px;
+    background-color: rgba(211, 38, 38, 0);
+    bottom: 250px;
+    width: 200px;
+    margin-left: 30%;
+}
+.card:hover .intro1{
+
+    height: 170px;
+    width: 200px;
+    top: 600px;
+    margin-left: 30%;
+}
+.intro1{
+    height: 70px;
+    width: 300px;
+    position: absolute;
+    box-sizing: border-box;
+    color: rgb(11, 11, 11);
+    border-radius: 25px;
+    transition: 1s;
+    transition: 0.5s;
+    margin-bottom: 700px;
+    top: 650px;
+}
+
+.but1{
+    visibility: hidden;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.but{
+    visibility: hidden;
+    margin-left: 100px;
+    height: 35px;
+    width: 85px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.card:hover .but {
+    visibility: visible;
+    background-color: rgb(230, 224, 224);
+    color:rgb(14, 14, 14);
+    border: solid;
+    border-width: 1px;
+    cursor: pointer;
+    transition: 1s;
+}
+.but1{
+    visibility: hidden;
+    margin-left: 100px;
+    height: 35px;
+    width: 85px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 0px;
+}
+.card:hover .but1{
+    visibility: visible;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    border: solid;
+    border-width: 1px;
+    cursor: pointer;
+    transition: 1s;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-left: 25px;
+    margin-top: 1px;
+}
+h1{
+
+margin: 10px;
+font-size: 30px;
+}
+#navbar {
+    width:90%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo {
+    width: 200px;
+    height: 80px;;
+    cursor: pointer;
+    float: left;
+}
+    
+    </style>
+</head>
+<body>
+    <div id="navbar">
+    <a href="project.html"><img src="logo.png" id="logo"></a>
+        <h1 style="font-size: 60px; margin-right: 22%;text-shadow: 5px 5px 5px rgb(12, 11, 11);">BENTLEY GARAGE</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="participates.jpg" alt="participates">
+            <div class="intro">
+                <h1 style="margin-top: 62%; font-size: 20px;">Participates</h1>
+                <p>Participates play under a team With a coach</p>
+                <a href="loginpage.html"><input class="but" type="button" value="Book Now"></a>    
+            </div>
+        </div>
+        <div class="card">
+            <img src="worldfinels.webp" alt="science">
+            <div class="intro">
+                <h1 style="margin-top: 62%; font-size: 20px;">World finals</h1>
+                <p>teams who is top in that year will be champion</p>
+                <a href="loginpage.html"><input class="but" type="button" value="Book Now"></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="logo.png" alt="cultural">
+            <div class="intro">
+                <h1 style="margin-top: 62%; font-size: 20px;">Teams</h1>
+                <p>Every team will have a coach</p>
+                <a href="loginpage.html"><input class="but" type="button" value="Book Now"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <div class="card">
+            <img src="team.jpg" alt="food">
+            <div class="intro1">
+                <h1 style="font-size: 20px;">Teams</h1>
+                <p>team will have participates</p>
+                <a href="loginpage.html"><input class="but1" type="button" value="Book Now"></a>    
+             </div>
+        </div>
+        <div class="card">
+            <img src="online.webp" alt="science" style="width: 350px; height: 250px; margin-top: 20%;">
+            <div class="intro1">
+                <h1 style="font-size: 20px;"> Online Contest</h1>
+                <p>this will be condected online mode anyone can write from anyware.</p>
+                <a href="loginpage.html"><input class="but1" type="button" value="Book Now"></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="onsite.jpeg" alt="cultural" style="width: 380px; height: 250px; margin-top: 20%;">
+            <div class="intro1">
+                <h1 style="font-size: 20px;">onsite contest</h1>
+                <p>this will be condected offline mode anyone can write from exam center .</p>
+                <a href="loginpage.html"><input class="but1" type="button" value="Book Now"></a>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>

@@ -1,4 +1,4 @@
-                                                Hospital Appointment Management System
+                                          Hospital Appointment Management System
 
 
 
@@ -6,29 +6,29 @@ This project offers a streamlined platform for booking hospital appointments, ma
 
 
                                                   🚀 Technologies Used
-          Frontend:
+  Frontend:
 
-    HTML
+  1)HTML
   
-    CSS (Bootstrap)
+  2)CSS (Bootstrap)
   
-    JavaScript
+  3)JavaScript
   
 
-        Database:
+  Database:
     MySQL (structure and schema provided in Excel and diagram files)
 
                                                     📊 Features
 
-Responsive pages for booking appointments and viewing services.
+1)Responsive pages for booking appointments and viewing services.
 
-Login functionality (prototype).
+2)Login functionality (prototype).
 
-Doctor profiles and service listings.
+3)Doctor profiles and service listings.
 
-Contact and About Us sections with detailed information.
+4)Contact and About Us sections with detailed information.
 
-ER diagram and database schema included for backend integration.
+5)ER diagram and database schema included for backend integration.
 
 
                                                     📂 Project Structure
